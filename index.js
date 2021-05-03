@@ -1,5 +1,5 @@
 const app = require('express')()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 4000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const { timeStamp } = require('console');
